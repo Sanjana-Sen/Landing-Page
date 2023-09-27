@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+</head>
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+        background-image: url('simg.jpg');
+    }
+    .navbar{
+        display: flex;
+        margin: auto;
+        width:100%;
+        height: 15vh;
+
+    }
+    .logo{
+        width:50px;
+        height: 50px;
+        top:left;
+    }
+    
+    
+    nav{
+        flex:1;
+        padding-left:50px ;
+    }
+    nav ul li{
+        display:inline-block;
+        list-style: none;
+        margin:0px 20px;
+    }
+    nav a{
+        color:rgb(44, 91, 177);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    }
+    
+    .content h1{
+        font-size: 60px;
+        font-weight: 100;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        color: rgb(4, 4, 94);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .content p{
+        font-size: 20px;
+        color: rgb(165, 97, 229);
+    }
+    .content{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .content .btn{
+        display:inline-block;
+        background: linear-gradient(45deg,#87adfe,#ff77cd);
+        border-radius: 5px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: aliceblue;
+        box-shadow: 3px 7px 23px rgba(94,28,68,0.15);
+
+    }
+    .skin-img{
+        height: 30%;
+        position: absolute;
+        top:0;
+        left:80px;
+        padding: 50px;
+        align-content: center;
+        box-shadow: 3px 5px 10px solid blue;
+        
+
+    }
+    .makeup{
+        height: 60%;
+        position: absolute;
+        bottom: 0;
+        right:100px;
+        box-shadow: 3px 7px 14px salmon;
+    }
+    .social{
+        transform: rotate(-90deg);
+        position: absolute;
+        left:-80px;
+        bottom:180px;
+    }
+    .social a{
+        text-decoration: none;
+        color: rgb(24, 8, 66);
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .sale{
+        height: 30%;
+        position: absolute;
+        top:0;
+        right: 70px;
+    }
+    .content2{
+        top:20%;
+        right: 20%;
+    }
+    .content2.btn{
+        display: inline-block;
+        box-sizing: content-box;
+        text-decoration: none;
+    }
+    
+   
+   
+
+    </style>
+<body>
+    <div class="navbar">
+        <img src="sanjulogo.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Favourite</a></li>
+            </ul>
+            
+        </nav>
+        
+    </div>
+    <img src="skin.jpg" class="skin-img">
+    <div class="content">
+        <a href="" class="btn">2023  New Collection</a>
+        <h1>Try once and <br> See the magic</h1>
+        <p>Best skincare brands and Makeup brands in India with an exclusive range </p>
+        </div>
+        <img src="mak.jpg" class="makeup">
+        <div class="social">
+            <a href="https\\:google.com">GOOGLE</a>
+            <a href="https\\:facbook.com">FACBOOK</a>
+            <a href="https\\:instagram.com">INSTAGRAM</a>
+            <a href="https\\:youtube.com">YOUTUBE</a>
+        </div>
+        <img src="sale.jpg" class="sale">
+        </div>
+    </div>
+    <div class="content2">
+        <a href="" class="btn">UPTO-50%</a>
+    </div>
+</body>
+</html>
